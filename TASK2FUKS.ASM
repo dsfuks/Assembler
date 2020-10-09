@@ -33,7 +33,7 @@ proc task
         mov ebx, mas
         mov edx, mas2
         mov eax,0
-        mov esi,0 ; Schetchik kolichestva elementov massiva Â
+        mov esi,0 ; Schetchik kolichestva elementov massiva Ã‚
 putMasLoop2:
 
         mov [tmp], ebx
@@ -59,7 +59,6 @@ endOutputMas2:
         ret
 endp
 start:
-; 1) vector input
         ; input mas A
         call MasInput
 
